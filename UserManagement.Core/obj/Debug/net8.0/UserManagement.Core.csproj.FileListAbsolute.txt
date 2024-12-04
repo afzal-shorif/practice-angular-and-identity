@@ -1,0 +1,12 @@
+D:\Projects\UserManagement\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.deps.json
+D:\Projects\UserManagement\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.dll
+D:\Projects\UserManagement\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.pdb
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.AssemblyInfoInputs.cache
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.AssemblyInfo.cs
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.csproj.CoreCompileInputs.cache
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.dll
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\refint\UserManagement.Core.dll
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.pdb
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\ref\UserManagement.Core.dll
+D:\Projects\UserManagement\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.csproj.AssemblyReference.cache
