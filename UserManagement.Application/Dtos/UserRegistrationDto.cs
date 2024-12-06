@@ -14,6 +14,6 @@ namespace UserManagement.Application.Dtos
 
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; } = string.Empty;
-        public string roleId { get; set; }
+        public string RoleId { get; set; }
     }
 }

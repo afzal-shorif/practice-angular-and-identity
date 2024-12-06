@@ -4,7 +4,7 @@ namespace UserManagement.Application.Interfaces
 {
     public interface IRoleRepository
     {
-        Task<IList<Role>> GetRolesAsync();
-        Task<Role?> GetRoleAsync(string roleId);
+        //Task<IList<Role>> GetRolesAsync();
+        //Task<Role?> GetRoleAsync(string roleId);
     }
 }

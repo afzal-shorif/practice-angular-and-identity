@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using UserManagement.Infrastructure.Data;
 
-namespace UserManagement.Infrastructure
+namespace UserManagement.Infrastructure.Configurations
 {
     public class ServiceConfiguration
     {

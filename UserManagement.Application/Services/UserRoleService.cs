@@ -13,15 +13,15 @@ namespace UserManagement.Application.Services
         }
 
 
-        public async ValueTask<bool> AddUserRole(User user, Role role)
-        {
-            var userRole = new UserRole();
-            userRole.User = user;
-            userRole.Role = role;
+        //public async ValueTask<bool> AddUserRole(User user, Role role)
+        //{
+        //    var userRole = new UserRole();
+        //    userRole.User = user;
+        //    userRole.Role = role;
 
-            var result = await _userRoleRepository.AddUserRoleAsync(userRole);
+        //    var result = await _userRoleRepository.AddUserRoleAsync(userRole);
             
-            return result;
-        }
+        //    return result;
+        //}
     }
 }

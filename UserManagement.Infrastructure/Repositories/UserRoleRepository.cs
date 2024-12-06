@@ -13,19 +13,19 @@ namespace UserManagement.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public async ValueTask<bool> AddUserRoleAsync(UserRole userRole)
-        {
-            try
-            {
-                await _dbContext.AddAsync(userRole);
-                int changeId = await _dbContext.SaveChangesAsync();
+        //public async ValueTask<bool> AddUserRoleAsync(UserRole userRole)
+        //{
+        //    try
+        //    {
+        //        await _dbContext.AddAsync(userRole);
+        //        int changeId = await _dbContext.SaveChangesAsync();
 
-                return changeId > 0;
-            }
-            catch (Exception ex) { 
-                Console.WriteLine(ex);
-                return false;
-            }
-        }
+        //        return changeId > 0;
+        //    }
+        //    catch (Exception ex) { 
+        //        Console.WriteLine(ex);
+        //        return false;
+        //    }
+        //}
     }
 }

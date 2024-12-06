@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using UserManagement.Application.Services;
-using UserManagement.Core.Entities;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace UserManagement.Controllers
 {
@@ -8,16 +8,16 @@ namespace UserManagement.Controllers
     [ApiController]
     public class RoleController : ControllerBase
     {
-        private readonly RoleService _roleService;
-        public RoleController(RoleService roleService) 
+        private readonly RoleManager<IdentityRole> _roleManager;
+        public RoleController(RoleManager<IdentityRole> roleManager)
         {
-            _roleService = roleService;
+            _roleManager = roleManager;
         }
 
         [HttpGet("/roles")]
-        public async Task<IList<Role>>Get()
+        public async Task<IList<IdentityRole>> Get()
         {
-            return await _roleService.GetRolesAsync();
+            return await _roleManager.Roles.ToListAsync();
         }
     }
 }

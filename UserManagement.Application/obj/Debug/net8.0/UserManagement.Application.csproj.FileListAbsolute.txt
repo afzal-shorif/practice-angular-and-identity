@@ -8,6 +8,7 @@ D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserManag
 D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserManagement.Application.AssemblyInfoInputs.cache
 D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserManagement.Application.AssemblyInfo.cs
 D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserManagement.Application.csproj.CoreCompileInputs.cache
+D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserManagement.Application.sourcelink.json
 D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserMana.22515BBA.Up2Date
 D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\UserManagement.Application.dll
 D:\Projects\UserManagement\UserManagement.Application\obj\Debug\net8.0\refint\UserManagement.Application.dll

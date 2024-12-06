@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xqcTweEueWw=",
+  "dgSpecHash": "UUZwWpd7ORk=",
   "success": true,
   "projectFilePath": "D:\\Projects\\UserManagement\\UserManagement.Infrastructure\\UserManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.11\\microsoft.aspnetcore.cryptography.keyderivation.8.0.11.nupkg.sha512",
     "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.1.1\\microsoft.aspnetcore.dataprotection.2.1.1.nupkg.sha512",
     "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.1.1\\microsoft.aspnetcore.dataprotection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.11\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.11.nupkg.sha512",
     "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.1.1\\microsoft.aspnetcore.hosting.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.1.1\\microsoft.aspnetcore.hosting.server.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\ashorif\\.nuget\\packages\\microsoft.aspnetcore.http\\2.1.1\\microsoft.aspnetcore.http.2.1.1.nupkg.sha512",

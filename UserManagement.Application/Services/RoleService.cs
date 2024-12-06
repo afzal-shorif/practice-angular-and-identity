@@ -12,15 +12,15 @@ namespace UserManagement.Application.Services
             _roleRepository = roleRepository;
         }
 
-        public async Task<IList<Role>> GetRolesAsync()
-        {
-            return await _roleRepository.GetRolesAsync();
-        }
+        //public async Task<IList<Role>> GetRolesAsync()
+        //{
+        //    return await _roleRepository.GetRolesAsync();
+        //}
 
-        public async Task<Role> GetRoleAsync(string roleId)
-        {
-            var result = await _roleRepository.GetRoleAsync(roleId);
-            return result;
-        }
+        //public async Task<Role> GetRoleAsync(string roleId)
+        //{
+        //    var result = await _roleRepository.GetRoleAsync(roleId);
+        //    return result;
+        //}
     }
 }

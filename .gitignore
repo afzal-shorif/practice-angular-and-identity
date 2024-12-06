@@ -1,0 +1,6 @@
+.vscode
+*.sln.docstates
+*/bin
+*/obj
+.vs/
+UserManagement.Core/bin/

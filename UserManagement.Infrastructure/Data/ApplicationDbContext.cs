@@ -1,15 +1,16 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata;
 using UserManagement.Core.Entities;
+using UserManagement.Infrastructure.Configurations;
+using Microsoft.AspNetCore.Identity;
+using System.Data;
 
 namespace UserManagement.Infrastructure.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<User, Role, string>
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<Role> Roles { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { 
@@ -20,17 +21,6 @@ namespace UserManagement.Infrastructure.Data
             base.OnModelCreating(modelBuilder);
 
             //modelBuilder.ApplyConfiguration(new RoleConfiguration());
-
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.UserRoles)           
-                .WithOne(ur => ur.User)    
-                .HasForeignKey<UserRole>(ur => ur.UserId) 
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<UserRole>()
-                .HasOne(ur => ur.Role)
-                .WithMany(r => r.UserRoles)
-                .HasForeignKey(ur => ur.RoleId);
         }
     }
 }
